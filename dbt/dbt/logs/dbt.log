@@ -1,0 +1,61 @@
+[0m12:35:53.194268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A413C6D630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A416F5EC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A416F5EA40>]}
+
+
+============================== 12:35:53.197754 | aa49a148-df0c-4573-a406-a55358f9aee1 ==============================
+[0m12:35:53.197754 [info ] [MainThread]: Running with dbt=1.7.3
+[0m12:35:53.198922 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\rafae\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:35:53.199934 [info ] [MainThread]: dbt version: 1.7.3
+[0m12:35:53.200934 [info ] [MainThread]: python version: 3.10.11
+[0m12:35:53.201933 [info ] [MainThread]: python path: C:\Users\rafae\Projetos\git\AirDBT\venv\Scripts\python.exe
+[0m12:35:53.202934 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m12:35:53.724484 [info ] [MainThread]: Using profiles dir at C:\Users\rafae\.dbt
+[0m12:35:53.725399 [info ] [MainThread]: Using profiles.yml file at C:\Users\rafae\.dbt\profiles.yml
+[0m12:35:53.726407 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\rafae\Projetos\git\AirDBT\dbt\dbt\dbt_project.yml
+[0m12:35:53.728596 [info ] [MainThread]: adapter type: bigquery
+[0m12:35:53.729513 [info ] [MainThread]: adapter version: 1.7.2
+[0m12:35:53.730522 [info ] [MainThread]: Configuration:
+[0m12:35:53.731523 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:35:53.732521 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:35:53.733522 [info ] [MainThread]: Required dependencies:
+[0m12:35:53.734564 [debug] [MainThread]: Executing "git --help"
+[0m12:35:53.792502 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:35:53.793515 [debug] [MainThread]: STDERR: "b''"
+[0m12:35:53.794511 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:35:53.795511 [info ] [MainThread]: Connection:
+[0m12:35:53.797017 [info ] [MainThread]:   method: service-account
+[0m12:35:53.797017 [info ] [MainThread]:   database: maximal-beach-406617
+[0m12:35:53.798026 [info ] [MainThread]:   execution_project: maximal-beach-406617
+[0m12:35:53.799024 [info ] [MainThread]:   schema: dw_data
+[0m12:35:53.799024 [info ] [MainThread]:   location: US
+[0m12:35:53.800023 [info ] [MainThread]:   priority: interactive
+[0m12:35:53.800023 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:35:53.801043 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:35:53.802027 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:35:53.802272 [info ] [MainThread]:   job_retries: 1
+[0m12:35:53.802272 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:35:53.803319 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:35:53.803319 [info ] [MainThread]:   keyfile: C:\Users\rafae\Projetos\git\AirDBT\config\keys.json
+[0m12:35:53.804332 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:35:53.804332 [info ] [MainThread]:   refresh_token: None
+[0m12:35:53.805332 [info ] [MainThread]:   client_id: None
+[0m12:35:53.805332 [info ] [MainThread]:   token_uri: None
+[0m12:35:53.806332 [info ] [MainThread]:   dataproc_region: None
+[0m12:35:53.806332 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:35:53.807331 [info ] [MainThread]:   gcs_bucket: None
+[0m12:35:53.807331 [info ] [MainThread]:   dataproc_batch: None
+[0m12:35:53.808464 [info ] [MainThread]: Registered adapter: bigquery=1.7.2
+[0m12:35:53.810465 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:35:53.811482 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:35:53.814481 [debug] [MainThread]: On debug: select 1 as id
+[0m12:35:54.598251 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=maximal-beach-406617&j=bq:US:2469240e-b3fc-40fb-a4d0-1391517a3e01&page=queryresults
+[0m12:35:55.302925 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:35:55.305845 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:35:55.307447 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\rafae\Projetos\git\AirDBT\dbt\dbt\dbt_project.yml> not found
+
+[0m12:35:55.311563 [debug] [MainThread]: Command `dbt debug` failed at 12:35:55.311563 after 2.19 seconds
+[0m12:35:55.312571 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:35:55.313567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A413C6D630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A417A22C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4179DB760>]}
+[0m12:35:55.314567 [debug] [MainThread]: Flushing usage events

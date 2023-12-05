@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: adventureworks-gcp
+    database: maximal-beach-406617
+    schema: raw_data
+    description: Table de origem GCP database Adventureworks-gcp
+    tables:
+      - name: address
+      - name: countryregion
+      - name: creditcard
+      - name: customer
+      - name: person
+      - name: product
+      - name: salesorderdetail
+      - name: salesorderheader
+      - name: salesorderheadersalesreason
+      - name: stateprovince
+      - name: store

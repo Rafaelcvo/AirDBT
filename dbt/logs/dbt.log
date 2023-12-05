@@ -1,0 +1,161 @@
+[0m11:22:04.719548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9E25AD630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9E57FD720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9E57FD4E0>]}
+
+
+============================== 11:22:04.725827 | 016e7ca6-0760-4361-8d60-1196c9655fb7 ==============================
+[0m11:22:04.725827 [info ] [MainThread]: Running with dbt=1.7.3
+[0m11:22:04.725827 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\rafae\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init datalake', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:04.729348 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/rafae/.dbt')}
+[0m11:22:04.729348 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:22:04.736005 [debug] [MainThread]: Starter project path: C:\Users\rafae\Projetos\git\AirDBT\venv\lib\site-packages\dbt\include\starter_project
+[0m11:22:04.820985 [info ] [MainThread]: 
+Your new dbt project "datalake" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:22:04.825610 [info ] [MainThread]: Setting up your profile.
+[0m12:24:40.510953 [info ] [MainThread]: Profile datalake written to C:\Users\rafae\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:24:40.514965 [debug] [MainThread]: Command `dbt init` succeeded at 12:24:40.514965 after 3759.81 seconds
+[0m12:24:40.516961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9E25AD630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9E62E2E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9E62E2E60>]}
+[0m12:24:40.516961 [debug] [MainThread]: Flushing usage events
+[0m12:32:25.993387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210476EC580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002104A9DECB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002104A9DEAA0>]}
+
+
+============================== 12:32:26.000142 | e486b5b3-7961-43f4-9cdf-ef59a1a1befb ==============================
+[0m12:32:26.000142 [info ] [MainThread]: Running with dbt=1.7.3
+[0m12:32:26.001143 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\rafae\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:32:26.002143 [info ] [MainThread]: dbt version: 1.7.3
+[0m12:32:26.003146 [info ] [MainThread]: python version: 3.10.11
+[0m12:32:26.004386 [info ] [MainThread]: python path: C:\Users\rafae\Projetos\git\AirDBT\venv\Scripts\python.exe
+[0m12:32:26.005394 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m12:32:26.797805 [info ] [MainThread]: Using profiles dir at C:\Users\rafae\.dbt
+[0m12:32:26.799367 [info ] [MainThread]: Using profiles.yml file at C:\Users\rafae\.dbt\profiles.yml
+[0m12:32:26.800397 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\rafae\Projetos\git\AirDBT\dbt\dbt_project.yml
+[0m12:32:26.803460 [info ] [MainThread]: adapter type: bigquery
+[0m12:32:26.804609 [info ] [MainThread]: adapter version: 1.7.2
+[0m12:32:26.805619 [info ] [MainThread]: Configuration:
+[0m12:32:26.807236 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:32:26.808244 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:32:26.810242 [info ] [MainThread]: Required dependencies:
+[0m12:32:26.811248 [debug] [MainThread]: Executing "git --help"
+[0m12:32:26.867953 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:32:26.868962 [debug] [MainThread]: STDERR: "b''"
+[0m12:32:26.870058 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:32:26.871960 [info ] [MainThread]: Connection:
+[0m12:32:26.873316 [info ] [MainThread]:   method: service-account
+[0m12:32:26.874416 [info ] [MainThread]:   database: maximal-beach-406617
+[0m12:32:26.874990 [info ] [MainThread]:   execution_project: maximal-beach-406617
+[0m12:32:26.875997 [info ] [MainThread]:   schema: dw_data
+[0m12:32:26.875997 [info ] [MainThread]:   location: US
+[0m12:32:26.877788 [info ] [MainThread]:   priority: interactive
+[0m12:32:26.878796 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:32:26.878796 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:32:26.879862 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:32:26.880796 [info ] [MainThread]:   job_retries: 1
+[0m12:32:26.881795 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:32:26.881795 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:32:26.882794 [info ] [MainThread]:   keyfile: config\keys.json
+[0m12:32:26.882794 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:32:26.883794 [info ] [MainThread]:   refresh_token: None
+[0m12:32:26.883794 [info ] [MainThread]:   client_id: None
+[0m12:32:26.884795 [info ] [MainThread]:   token_uri: None
+[0m12:32:26.884795 [info ] [MainThread]:   dataproc_region: None
+[0m12:32:26.885798 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:32:26.887376 [info ] [MainThread]:   gcs_bucket: None
+[0m12:32:26.888318 [info ] [MainThread]:   dataproc_batch: None
+[0m12:32:26.889317 [info ] [MainThread]: Registered adapter: bigquery=1.7.2
+[0m12:32:26.890318 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:32:26.891318 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:32:26.893318 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'config\\keys.json''
+[0m12:32:26.893318 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:32:26.895318 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:32:26.895869 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\rafae\Projetos\git\AirDBT\dbt\dbt_project.yml> not found
+
+[0m12:32:26.895869 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: 'config\\keys.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:32:26.898389 [debug] [MainThread]: Command `dbt debug` failed at 12:32:26.898389 after 0.97 seconds
+[0m12:32:26.898389 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:32:26.899412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210476EC580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002104B4A11E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002104B4A2260>]}
+[0m12:32:26.899412 [debug] [MainThread]: Flushing usage events
+[0m12:35:05.383010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F31F13C580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F32242ECB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F32242EAA0>]}
+
+
+============================== 12:35:05.383010 | 40c63d0a-c6bb-493b-96b5-d97713b66e01 ==============================
+[0m12:35:05.383010 [info ] [MainThread]: Running with dbt=1.7.3
+[0m12:35:05.383010 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\rafae\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:35:05.383010 [info ] [MainThread]: dbt version: 1.7.3
+[0m12:35:05.383010 [info ] [MainThread]: python version: 3.10.11
+[0m12:35:05.394045 [info ] [MainThread]: python path: C:\Users\rafae\Projetos\git\AirDBT\venv\Scripts\python.exe
+[0m12:35:05.394045 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m12:35:05.864271 [info ] [MainThread]: Using profiles dir at C:\Users\rafae\.dbt
+[0m12:35:05.864271 [info ] [MainThread]: Using profiles.yml file at C:\Users\rafae\.dbt\profiles.yml
+[0m12:35:05.864271 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\rafae\Projetos\git\AirDBT\dbt\dbt_project.yml
+[0m12:35:05.864271 [info ] [MainThread]: adapter type: bigquery
+[0m12:35:05.864271 [info ] [MainThread]: adapter version: 1.7.2
+[0m12:35:05.864271 [info ] [MainThread]: Configuration:
+[0m12:35:05.864271 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:35:05.864271 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:35:05.877756 [info ] [MainThread]: Required dependencies:
+[0m12:35:05.878767 [debug] [MainThread]: Executing "git --help"
+[0m12:35:05.932574 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:35:05.932574 [debug] [MainThread]: STDERR: "b''"
+[0m12:35:05.932574 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:35:05.932574 [info ] [MainThread]: Connection:
+[0m12:35:05.932574 [info ] [MainThread]:   method: service-account
+[0m12:35:05.932574 [info ] [MainThread]:   database: maximal-beach-406617
+[0m12:35:05.932574 [info ] [MainThread]:   execution_project: maximal-beach-406617
+[0m12:35:05.948139 [info ] [MainThread]:   schema: dw_data
+[0m12:35:05.948991 [info ] [MainThread]:   location: US
+[0m12:35:05.948991 [info ] [MainThread]:   priority: interactive
+[0m12:35:05.948991 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:35:05.948991 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:35:05.948991 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:35:05.948991 [info ] [MainThread]:   job_retries: 1
+[0m12:35:05.948991 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:35:05.948991 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:35:05.948991 [info ] [MainThread]:   keyfile: C:\Users\rafae\Projetos\git\AirDBT\config\keys.json
+[0m12:35:05.948991 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:35:05.948991 [info ] [MainThread]:   refresh_token: None
+[0m12:35:05.948991 [info ] [MainThread]:   client_id: None
+[0m12:35:05.948991 [info ] [MainThread]:   token_uri: None
+[0m12:35:05.948991 [info ] [MainThread]:   dataproc_region: None
+[0m12:35:05.948991 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:35:05.948991 [info ] [MainThread]:   gcs_bucket: None
+[0m12:35:05.948991 [info ] [MainThread]:   dataproc_batch: None
+[0m12:35:05.948991 [info ] [MainThread]: Registered adapter: bigquery=1.7.2
+[0m12:35:05.948991 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:35:05.948991 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:35:05.966632 [debug] [MainThread]: On debug: select 1 as id
+[0m12:35:07.259686 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=maximal-beach-406617&j=bq:US:6a73be07-fe63-46c7-b9c7-8221bdcb288c&page=queryresults
+[0m12:35:07.906791 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:35:07.906791 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:35:07.906791 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\rafae\Projetos\git\AirDBT\dbt\dbt_project.yml> not found
+
+[0m12:35:07.925017 [debug] [MainThread]: Command `dbt debug` failed at 12:35:07.925017 after 2.60 seconds
+[0m12:35:07.927035 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:35:07.928113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F31F13C580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F32238FAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F322EF12A0>]}
+[0m12:35:07.929108 [debug] [MainThread]: Flushing usage events
